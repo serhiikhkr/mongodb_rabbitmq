@@ -7,9 +7,6 @@ from models import Author, Quote
 
 NAME_DATA = 'authors_and_quotes'
 
-# if NAME_DATA in available_databases:
-#     register_connection(alias=NAME_DATA, name=NAME_DATA)
-
 with open('first_part/authors.json', 'r', encoding='utf-8') as authors_file:
     authors_data = json.load(authors_file)
 
